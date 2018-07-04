@@ -3,12 +3,12 @@ body{
     padding: 0;
 }
 .wrapper{
-    min-width: 280px;
-    width: 80%;
+   
+    width: 100%;
     margin: auto;    
 }
 header{
-    width: 80%;
+    width: 100%;
     position: fixed;
     background: #333;
     top: 0;
@@ -36,11 +36,13 @@ a{
     position: relative;
 }
 main{
-    
+    margin: auto;    
+    width: 100%;
     margin-top: 60px;   
 }
 .image-section img {
-    max-width: 100%;
+    max-width: 100%;   
+    min-width: 100%;
 }
 h1 {
     font-size: 30px;
@@ -82,7 +84,7 @@ article{
 
 @media all and (max-width: 560px) {
     header {
-        width: 80%;
+        width: 100%;
     } 
     main {
         width: 100%;
